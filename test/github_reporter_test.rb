@@ -13,7 +13,9 @@ class GithubReporterTest < Minitest::Test
 	end
 
 	def test_config
-		assert_kind_of Configuration, @github_reporter.config
+		Configuration.stub(:new, Configuration.new('./configtest.yml')) do 
+			assert_kind_of Configuration, @github_reporter.config
+		end
 	end
 	
   	# def test_start
