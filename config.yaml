@@ -1,0 +1,12 @@
+repositories:
+  - theforeman/foreman
+  - theforeman/smart-proxy
+  - theforeman/hammer-cli
+  - theforeman/hammer-cli-foreman
+users:
+  - ares
+  - tstrachota
+  - inecas
+line_size: 120
+max_pr_digits: 4
+log_level: 1
