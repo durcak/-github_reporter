@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8d457ac-c285-48e8-9197-3477ebc5f003" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/github_reporter_test.rb" afterPath="$PROJECT_DIR$/test/github_reporter_test.rb" />
-    </list>
+    <list default="true" id="c8d457ac-c285-48e8-9197-3477ebc5f003" name="Default" comment="" />
     <ignored path="github_reporter_410304.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -365,7 +363,7 @@
       <option name="presentableId" value="Default" />
       <updated>1478290392865</updated>
       <workItem from="1478290397571" duration="7111000" />
-      <workItem from="1478426900902" duration="808000" />
+      <workItem from="1478426900902" duration="989000" />
     </task>
     <servers />
   </component>
@@ -375,7 +373,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7919000" />
+    <option name="totallyTimeSpent" value="8100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="61" width="1342" height="707" extended-state="0" />

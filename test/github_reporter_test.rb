@@ -8,7 +8,10 @@ class GithubReporterTest < Minitest::Test
 		# @users = ["ares","inecas"]
 		# @repo = "theforeman/foreman"
 		# @github = Github.new(@repo, @users)
-		@github_reporter = GithubReporter.new(Storage, Printer)
+		Configuration.stub(:new, Configuration.new('./configtest.yml')) do 
+			@github_reporter = GithubReporter.new(Storage, Printer)
+		end
+		
 		#puts @github_reporter.config.log_level
 	end
 
