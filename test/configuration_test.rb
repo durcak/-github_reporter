@@ -2,9 +2,6 @@ require 'test_helper'
 require 'yaml'
 require 'configuration'
 
-
-#require '../configuration'
-
 class ConfigurationTest < Minitest::Test
 	class ParseError < StandardError; end
 

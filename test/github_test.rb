@@ -1,8 +1,6 @@
 require "test_helper"
-require 'github.rb'
-require 'rspec'
-#require 'json'
-#require 'restclient'
+require 'github'
+
 
 
 class GithubTest < Minitest::Test

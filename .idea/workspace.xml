@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8d457ac-c285-48e8-9197-3477ebc5f003" name="Default" comment="" />
+    <list default="true" id="c8d457ac-c285-48e8-9197-3477ebc5f003" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="github_reporter_410304.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -58,8 +60,8 @@
       <file leaf-file-name="github_reporter_test.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/github_reporter_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -363,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1478290392865</updated>
       <workItem from="1478290397571" duration="7111000" />
-      <workItem from="1478426900902" duration="989000" />
+      <workItem from="1478426900902" duration="1651000" />
     </task>
     <servers />
   </component>
@@ -373,7 +375,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8100000" />
+    <option name="totallyTimeSpent" value="8762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="61" width="1342" height="707" extended-state="0" />
@@ -513,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/github_reporter_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

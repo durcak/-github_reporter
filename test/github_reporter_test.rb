@@ -1,6 +1,5 @@
 require 'test_helper'
 require 'github_reporter'
-require 'rspec'
 
 class GithubReporterTest < Minitest::Test
 
@@ -34,6 +33,7 @@ class GithubReporterTest < Minitest::Test
     	out, err = capture_io do
 			@github_reporter.print_report
 		end
+		assert_equal "", err
 		assert out.include? @github_reporter.instance_variable_get("@storage").users.first
   	end
 

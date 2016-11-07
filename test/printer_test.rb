@@ -55,6 +55,7 @@ class PrinterTest < Minitest::Test
 		out, err = capture_io do
 			@printer.print
 		end
+			assert_equal "", err
 			assert out.include?('Jan')
 			assert out.include?('Peter')
 
