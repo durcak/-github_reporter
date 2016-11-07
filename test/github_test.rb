@@ -2,7 +2,6 @@ require "test_helper"
 require 'github'
 
 
-
 class GithubTest < Minitest::Test
 	def setup
 		@users = ["ares","inecas"]
